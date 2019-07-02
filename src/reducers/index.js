@@ -1,8 +1,6 @@
-import { DEFAULT_ECDH_CURVE } from "tls";
-import { stat } from "fs";
-
 const initialState = {
-    board: []
+    board: [],
+    testeMapState: []
 }
 
 const reducer = (state = initialState, action) => {
